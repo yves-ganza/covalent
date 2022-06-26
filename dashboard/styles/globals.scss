@@ -1,0 +1,57 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans,
+    Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.bd-red {
+  border: 1px solid red;
+}
+
+.bd-blue {
+  border: 1px solid blue;
+}
+
+.bg-primary {
+  background-color: hsl(217, 54%, 11%);
+}
+
+.bg-card {
+  background-color: hsl(216, 50%, 16%);
+}
+
+.line-color {
+  color: hsl(215, 32%, 27%);
+}
+
+.text-secondary {
+  color: hsl(215, 51%, 70%);
+}
+
+.text-cyan {
+  color: hsl(178, 100%, 50%);
+}
+
+.nft-grid {
+  display: grid;
+  grid-auto-flow: dense;
+  grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+  gap: 1rem;
+  padding: 1rem;
+  position: relative;
+}
