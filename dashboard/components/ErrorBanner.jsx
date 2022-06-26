@@ -1,5 +1,6 @@
 import React from "react";
 
+//
 export default function ErrorBanner({error}){
     return(
         <div className="alert alert-error shadow-lg">
